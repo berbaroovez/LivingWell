@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708912052C276A1100D3D40A /* LivingWellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708912042C276A1100D3D40A /* LivingWellApp.swift */; };
+		708912072C276A1100D3D40A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708912062C276A1100D3D40A /* ContentView.swift */; };
+		708912092C276A1300D3D40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708912082C276A1300D3D40A /* Assets.xcassets */; };
+		7089120C2C276A1300D3D40A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7089120B2C276A1300D3D40A /* Preview Assets.xcassets */; };
+		708912162C276A1300D3D40A /* LivingWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708912152C276A1300D3D40A /* LivingWellTests.swift */; };
+		708912202C276A1300D3D40A /* LivingWellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7089121F2C276A1300D3D40A /* LivingWellUITests.swift */; };
+		708912222C276A1300D3D40A /* LivingWellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708912212C276A1300D3D40A /* LivingWellUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		708912122C276A1300D3D40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708911F92C276A1100D3D40A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708912002C276A1100D3D40A;
+			remoteInfo = LivingWell;
+		};
+		7089121C2C276A1300D3D40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708911F92C276A1100D3D40A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708912002C276A1100D3D40A;
+			remoteInfo = LivingWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		708912012C276A1100D3D40A /* LivingWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708912042C276A1100D3D40A /* LivingWellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWellApp.swift; sourceTree = "<group>"; };
+		708912062C276A1100D3D40A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		708912082C276A1300D3D40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7089120B2C276A1300D3D40A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		708912112C276A1300D3D40A /* LivingWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708912152C276A1300D3D40A /* LivingWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWellTests.swift; sourceTree = "<group>"; };
+		7089121B2C276A1300D3D40A /* LivingWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivingWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7089121F2C276A1300D3D40A /* LivingWellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWellUITests.swift; sourceTree = "<group>"; };
+		708912212C276A1300D3D40A /* LivingWellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		708911FE2C276A1100D3D40A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7089120E2C276A1300D3D40A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708912182C276A1300D3D40A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		708911F82C276A1100D3D40A = {
+			isa = PBXGroup;
+			children = (
+				708912032C276A1100D3D40A /* LivingWell */,
+				708912142C276A1300D3D40A /* LivingWellTests */,
+				7089121E2C276A1300D3D40A /* LivingWellUITests */,
+				708912022C276A1100D3D40A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		708912022C276A1100D3D40A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708912012C276A1100D3D40A /* LivingWell.app */,
+				708912112C276A1300D3D40A /* LivingWellTests.xctest */,
+				7089121B2C276A1300D3D40A /* LivingWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708912032C276A1100D3D40A /* LivingWell */ = {
+			isa = PBXGroup;
+			children = (
+				708912042C276A1100D3D40A /* LivingWellApp.swift */,
+				708912062C276A1100D3D40A /* ContentView.swift */,
+				708912082C276A1300D3D40A /* Assets.xcassets */,
+				7089120A2C276A1300D3D40A /* Preview Content */,
+			);
+			path = LivingWell;
+			sourceTree = "<group>";
+		};
+		7089120A2C276A1300D3D40A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7089120B2C276A1300D3D40A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		708912142C276A1300D3D40A /* LivingWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				708912152C276A1300D3D40A /* LivingWellTests.swift */,
+			);
+			path = LivingWellTests;
+			sourceTree = "<group>";
+		};
+		7089121E2C276A1300D3D40A /* LivingWellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7089121F2C276A1300D3D40A /* LivingWellUITests.swift */,
+				708912212C276A1300D3D40A /* LivingWellUITestsLaunchTests.swift */,
+			);
+			path = LivingWellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		708912002C276A1100D3D40A /* LivingWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708912252C276A1300D3D40A /* Build configuration list for PBXNativeTarget "LivingWell" */;
+			buildPhases = (
+				708911FD2C276A1100D3D40A /* Sources */,
+				708911FE2C276A1100D3D40A /* Frameworks */,
+				708911FF2C276A1100D3D40A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivingWell;
+			productName = LivingWell;
+			productReference = 708912012C276A1100D3D40A /* LivingWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		708912102C276A1300D3D40A /* LivingWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708912282C276A1300D3D40A /* Build configuration list for PBXNativeTarget "LivingWellTests" */;
+			buildPhases = (
+				7089120D2C276A1300D3D40A /* Sources */,
+				7089120E2C276A1300D3D40A /* Frameworks */,
+				7089120F2C276A1300D3D40A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708912132C276A1300D3D40A /* PBXTargetDependency */,
+			);
+			name = LivingWellTests;
+			productName = LivingWellTests;
+			productReference = 708912112C276A1300D3D40A /* LivingWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7089121A2C276A1300D3D40A /* LivingWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7089122B2C276A1300D3D40A /* Build configuration list for PBXNativeTarget "LivingWellUITests" */;
+			buildPhases = (
+				708912172C276A1300D3D40A /* Sources */,
+				708912182C276A1300D3D40A /* Frameworks */,
+				708912192C276A1300D3D40A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7089121D2C276A1300D3D40A /* PBXTargetDependency */,
+			);
+			name = LivingWellUITests;
+			productName = LivingWellUITests;
+			productReference = 7089121B2C276A1300D3D40A /* LivingWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708911F92C276A1100D3D40A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					708912002C276A1100D3D40A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					708912102C276A1300D3D40A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 708912002C276A1100D3D40A;
+					};
+					7089121A2C276A1300D3D40A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 708912002C276A1100D3D40A;
+					};
+				};
+			};
+			buildConfigurationList = 708911FC2C276A1100D3D40A /* Build configuration list for PBXProject "LivingWell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 708911F82C276A1100D3D40A;
+			productRefGroup = 708912022C276A1100D3D40A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				708912002C276A1100D3D40A /* LivingWell */,
+				708912102C276A1300D3D40A /* LivingWellTests */,
+				7089121A2C276A1300D3D40A /* LivingWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		708911FF2C276A1100D3D40A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7089120C2C276A1300D3D40A /* Preview Assets.xcassets in Resources */,
+				708912092C276A1300D3D40A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7089120F2C276A1300D3D40A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708912192C276A1300D3D40A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		708911FD2C276A1100D3D40A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708912072C276A1100D3D40A /* ContentView.swift in Sources */,
+				708912052C276A1100D3D40A /* LivingWellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7089120D2C276A1300D3D40A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708912162C276A1300D3D40A /* LivingWellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708912172C276A1300D3D40A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708912202C276A1300D3D40A /* LivingWellUITests.swift in Sources */,
+				708912222C276A1300D3D40A /* LivingWellUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		708912132C276A1300D3D40A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708912002C276A1100D3D40A /* LivingWell */;
+			targetProxy = 708912122C276A1300D3D40A /* PBXContainerItemProxy */;
+		};
+		7089121D2C276A1300D3D40A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708912002C276A1100D3D40A /* LivingWell */;
+			targetProxy = 7089121C2C276A1300D3D40A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		708912232C276A1300D3D40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		708912242C276A1300D3D40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		708912262C276A1300D3D40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LivingWell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkberry.LivingWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708912272C276A1300D3D40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LivingWell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkberry.LivingWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		708912292C276A1300D3D40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkberry.LivingWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LivingWell";
+			};
+			name = Debug;
+		};
+		7089122A2C276A1300D3D40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkberry.LivingWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivingWell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LivingWell";
+			};
+			name = Release;
+		};
+		7089122C2C276A1300D3D40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkberry.LivingWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivingWell;
+			};
+			name = Debug;
+		};
+		7089122D2C276A1300D3D40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monkberry.LivingWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivingWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		708911FC2C276A1100D3D40A /* Build configuration list for PBXProject "LivingWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708912232C276A1300D3D40A /* Debug */,
+				708912242C276A1300D3D40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708912252C276A1300D3D40A /* Build configuration list for PBXNativeTarget "LivingWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708912262C276A1300D3D40A /* Debug */,
+				708912272C276A1300D3D40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		708912282C276A1300D3D40A /* Build configuration list for PBXNativeTarget "LivingWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708912292C276A1300D3D40A /* Debug */,
+				7089122A2C276A1300D3D40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7089122B2C276A1300D3D40A /* Build configuration list for PBXNativeTarget "LivingWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7089122C2C276A1300D3D40A /* Debug */,
+				7089122D2C276A1300D3D40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 708911F92C276A1100D3D40A /* Project object */;
+}
