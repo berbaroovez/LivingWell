@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700EA17A2C63B82800A06E75 /* AttestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EA1792C63B82800A06E75 /* AttestView.swift */; };
+		700EA17C2C63C96800A06E75 /* SharablesNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EA17B2C63C96800A06E75 /* SharablesNotesView.swift */; };
+		700EA17E2C64025D00A06E75 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EA17D2C64025D00A06E75 /* WelcomeView.swift */; };
+		700EA1802C6404D000A06E75 /* SettingsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EA17F2C6404D000A06E75 /* SettingsPageView.swift */; };
 		708912052C276A1100D3D40A /* LivingWellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708912042C276A1100D3D40A /* LivingWellApp.swift */; };
 		708912072C276A1100D3D40A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708912062C276A1100D3D40A /* ContentView.swift */; };
 		708912092C276A1300D3D40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708912082C276A1300D3D40A /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		700EA1792C63B82800A06E75 /* AttestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttestView.swift; sourceTree = "<group>"; };
+		700EA17B2C63C96800A06E75 /* SharablesNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharablesNotesView.swift; sourceTree = "<group>"; };
+		700EA17D2C64025D00A06E75 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		700EA17F2C6404D000A06E75 /* SettingsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPageView.swift; sourceTree = "<group>"; };
 		708912012C276A1100D3D40A /* LivingWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		708912042C276A1100D3D40A /* LivingWellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingWellApp.swift; sourceTree = "<group>"; };
 		708912062C276A1100D3D40A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				708912042C276A1100D3D40A /* LivingWellApp.swift */,
+				700EA17D2C64025D00A06E75 /* WelcomeView.swift */,
 				708912062C276A1100D3D40A /* ContentView.swift */,
+				700EA17F2C6404D000A06E75 /* SettingsPageView.swift */,
+				700EA17B2C63C96800A06E75 /* SharablesNotesView.swift */,
+				700EA1792C63B82800A06E75 /* AttestView.swift */,
 				708912082C276A1300D3D40A /* Assets.xcassets */,
 				7089120A2C276A1300D3D40A /* Preview Content */,
 			);
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				700EA17C2C63C96800A06E75 /* SharablesNotesView.swift in Sources */,
+				700EA17A2C63B82800A06E75 /* AttestView.swift in Sources */,
 				708912072C276A1100D3D40A /* ContentView.swift in Sources */,
+				700EA1802C6404D000A06E75 /* SettingsPageView.swift in Sources */,
+				700EA17E2C64025D00A06E75 /* WelcomeView.swift in Sources */,
 				708912052C276A1100D3D40A /* LivingWellApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LivingWell/Preview Content\"";
+				DEVELOPMENT_TEAM = VWP4885833;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LivingWell/Preview Content\"";
+				DEVELOPMENT_TEAM = VWP4885833;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
